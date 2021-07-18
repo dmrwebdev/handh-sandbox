@@ -6,26 +6,38 @@
 html {
   height: 100%;
   background-color: beige;
-  width: 100vw;
+  width: 100%;
 }
 
 body {
   min-height: 100vh;
   width: inherit;
- /*  background:
+  /*  background:
   url('https://images.unsplash.com/photo-1571302703929-6209091a75fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1567&q=80')
   top / cover
   no-repeat
   ; */
+  font-family: Lato, arial, sans-serif;
+  overflow-x: hidden;
 }
 
 nav {
   height: $navbarHeight;
-  background-color: darkgray;
+  background-color: #f1a254;
   display: flex;
   justify-content: center;
   align-items: center;
-  
+  position: fixed;
+  width: 100%;
+  border-bottom: 5px solid #4d4c51;
+  font-size: 18px;
+  text-transform: uppercase;
+  z-index: 100;
+}
+
+nav div {
+  margin: 0 20px;
+  padding: .5em 1em;
 }
 
 main {
@@ -34,4 +46,23 @@ main {
 
 section {
   width: inherit;
+}
+
+.section-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-heading {
+  font-size: 28px;
+  margin-bottom: .5em;
+  color: #161616;
+}
+
+.section-sub-heading {
+  font-family: 'Merriweather', serif;
+}
+
+.section-hr {
+  margin-top: .5em;
 }

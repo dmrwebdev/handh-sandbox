@@ -5,16 +5,15 @@ body
   nav
     div Home
     div About
-    div Contact 
+    div Menu
     div Cart Calendar
+    div Contact Us
+    div#order-btn Order Online
   main 
-    section#intro.container-main 
-      .intro-img-container
-        img#hero-left(src='https://images.unsplash.com/photo-1542344807-21226ec94b39?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=fomat&fit=crop&w=1600&q=80')
-      .container-logo
-        img#logo( src='https://isteam.wsimg.com/ip/bf4e896a-a430-4b8b-bd5c-37d458d87291/Hank%20%26%20Hazel\'s%20iPad.jpg/:/rs=w:928,h:500,cg:true,m/cr=w:928,h:500')
-      .intro-img-container
-        img#hero-right(src='https://images.unsplash.com/photo-1591989330748-777649e84466?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1534&q=80')
-    section#about.container-main  
-  footer
-  
+    include intro.pug
+    include menu.pug
+    include about.pug
+    include cta.pug
+
+  footer  
+

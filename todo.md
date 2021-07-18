@@ -1,0 +1,3 @@
+- [ ] Improve animations for intro- maybe have welcome to slid in a litter slower, slow down near center and continue moving slowly, then have heading fizz out
+- [ ] Responsive sizing for hero
+- [ ]

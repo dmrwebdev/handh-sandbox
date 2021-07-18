@@ -8,6 +8,7 @@
     "pug": "^3.0.2"
   },
   "scripts": {
-    "start": "nodemon server.js"
+    "dev": "concurrently \"nodemon server.js -e js,pug\" \"sass -w sass/index.scss:public/style.css\" \"browser-sync start --proxy localhost:3000 --files *\"",
+    "start": "node server.js"
   }
 }

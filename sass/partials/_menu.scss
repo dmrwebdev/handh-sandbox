@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+#menu {
+  max-width: 1200px;
+  margin: 5em auto;
+  padding: 2em 2em;
+  border: 10px solid #2e2c2c;
+  border-radius: 5px;
+  background-color: rgb(240, 240, 220);
+  /* Subjective af apparently, just slightly off beige */
+}
+
+.menu-container {
+  margin: 0 auto;
+  column-count: 2;
+
+}
+
+.menu-group {
+  width: 100%;
+  margin: 2em 0;
+  break-inside: avoid;
+  display: inline-block
+}
+
+.menu-item {
+  margin: 1em;
+}
+
+.menu-item h4 {
+  margin: .5em 0
+}
+
+.menu-item p {
+  max-width: 530px;
+}
+
+.menu-info {
+  text-align: center;
+}
